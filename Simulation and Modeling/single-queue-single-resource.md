@@ -7,7 +7,7 @@ This script generates single queue single resource simulation table. This simula
     <li>This script requires 4 input files; two <code>csv</code> files and two <code>txt</code> files.</li>
     <li>1st <code>csv</code> file contains <b>Time Between Arrival Distribution</b> table. And 2nd <code>csv</code> file contains <b>Service Time Distribution</b> table.</li>
     <li>1st <code>txt</code> file contains <b>Random Digits for Time Between Arrival</b>. And 2nd <code>txt</code> file contains <b>Random Digits for Servie Time</b>.</li>
-    <li>Each data of <code>txt</code> file should be spearated by a single coma.</li>
+    <li>Each data of <code>txt</code> files should be spearated by a single coma.</li>
 </ul>
 
 ## Output
