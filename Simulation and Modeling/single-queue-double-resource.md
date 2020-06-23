@@ -38,7 +38,7 @@ Full form of coulmn names-
         <td>ST(HP)</td> <td>Service Time(Higher Priority)</td>
     </tr>
     <tr>
-        <td>TSE(HP)/td> <td>Time Service Ends(Higher Priority)</td>
+        <td>TSE(HP)</td> <td>Time Service Ends(Higher Priority)</td>
     </tr>
     <tr>
         <td>TSB(LP)</td> <td>Time Service Begins(Lower Priority)</td>
@@ -47,7 +47,7 @@ Full form of coulmn names-
         <td>ST(LP)</td> <td>Service Time(Lower Priority)</td>
     </tr>
     <tr>
-        <td>TSE(LP)/td> <td>Time Service Ends(Lower Priority)</td>
+        <td>TSE(LP)</td> <td>Time Service Ends(Lower Priority)</td>
     </tr>
     <tr>
         <td>TQ/td> <td>Time in Queue(Lower Priority)</td>
