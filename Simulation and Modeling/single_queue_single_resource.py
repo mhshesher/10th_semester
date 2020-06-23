@@ -53,6 +53,8 @@ tmp0=s.split(',')
 randt=[]
 randt.append(np.nan)
 for i in tmp0:
+    if int(i)==0:
+        i='1'+i
     randt.append(float(i))
     
 #read random digits for service time
@@ -62,6 +64,8 @@ s=f.read()
 tmp0=s.split(',')
 rands=[]
 for i in tmp0:
+    if int(i)==0:
+        i='1'+i
     rands.append(float(i))
 
 #algorithm
