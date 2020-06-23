@@ -24,8 +24,6 @@ for i in range(len(df0)):
         tmp0[1]='1'+tmp0[1]
     val=float(df0.iloc[i]['tba'])
     for j in range(int(tmp0[0]),int(tmp0[1])+1):
-        if j==1:
-            continue;
         lst.append((j,val))
 dt0=dict(lst)
 
@@ -69,6 +67,8 @@ tmp0=s.split(',')
 randt=[]
 randt.append(np.nan)
 for i in tmp0:
+    if int(i)==0:
+        i='1'+i
     randt.append(int(i))
 
 #read random digits for service time
@@ -78,6 +78,8 @@ s=f.read()
 tmp0=s.split(',')
 rands=[]
 for i in tmp0:
+    if int(i)==0:
+        i='1'+i
     rands.append(int(i))
     
 #mapping service time
