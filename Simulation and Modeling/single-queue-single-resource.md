@@ -17,6 +17,9 @@ Full form of coulmn names-
         <th>Short Form</th> <th>Full Form</th>
     </tr>
     <tr>
+        <td>CN.</td> <td>Customer No.</td>
+    </tr>
+    <tr>
         <td>RDA</td> <td>Random Digits for Arrival</td>
     </tr>
     <tr>
